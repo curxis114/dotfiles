@@ -1,6 +1,4 @@
-Gist.vim
-The-NERD-Commenter
-The-NERD-tree
 neobundle.vim
+neomru.vim
+unite-colorscheme
 unite.vim
-vimproc
