@@ -121,7 +121,9 @@ NeoBundleCheck
 NeoBundle 'Shougo/unite.vim'
 " Unite.vimで最近使ったファイルを表示できるようにする
 NeoBundle 'Shougo/neomru.vim'
-
+" ファイルをtree表示してくれる
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'Shougo/vimfiler'
 
 " http://blog.remora.cx/2010/12/vim-ref-with-unite.html
 """"""""""""""""""""""""""""""
@@ -147,7 +149,4 @@ au FileType unite inoremap <silent> <buffer> <expr> <C-K> unite#do_action('vspli
 au FileType unite nnoremap <silent> <buffer> <ESC><ESC> :q<CR>
 au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
 """"""""""""""""""""""""""""""
-
-" ファイルをtree表示してくれる
-NeoBundle 'scrooloose/nerdtree'
 
